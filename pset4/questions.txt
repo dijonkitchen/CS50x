@@ -1,0 +1,19 @@
+0.  BMP: 2^32 max colors, GIF: 2^8 max colors, JPEG: 2^24 max colors, PNG: 2^64 max colors
+1.  GIF
+2.  Lossy compression makes a file size smaller but loses information; lossless compression makes a file size smaller without losing information.
+3.  JPEG
+4.  When a file is deleted on a FAT system, the system modifies the filename’s first character in the file’s directory entry to signal that the file has been deleted and that at the directory entry can be recycled. The the system moves all of the file’s FAT clusters to the hard drive’s list of free clusters. 
+5.  Full disk encryption
+6.  stdint.h is a header file that provides the type declarations for exactly sized integers. 
+7.  By using these pre-determined exact-width integer types, programs are more portable. Whether executables are 32-bit or 64-bit won’t matter. 
+8.  BYTE: 1 byte, DWORD: 4 bytes, LONG: 4 bytes, WORD: 2 bytes
+9.  BM
+10. bfSize is the size in bytes of the bitmap file; biSize is the number of bytes required by the structure
+11. The bitmap is a top-down bitmap and its origin is the upper left corner
+12. biBitCount
+13. Invalid filename
+14. fread is only trying to get one instance
+15. 3
+16. Changes the file position indicator
+17. Current position of the file position indicator
+18. Rob Bowden
